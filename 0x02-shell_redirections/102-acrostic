@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 | TR "\n" "\a" 
+cut -c 1 | paste -c -d '' 
