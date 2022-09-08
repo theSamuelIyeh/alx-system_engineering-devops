@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s" $(cut -c 1) 
+cut -c 1 | TR "\n" "\a" 
