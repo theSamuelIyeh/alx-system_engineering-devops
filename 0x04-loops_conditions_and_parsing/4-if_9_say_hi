@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#print hi in 9 iteration
+i=0
+while ((i<10))
+do
+	echo "Best School"
+	if ((i == 8))
+	then
+		echo "Hi"
+	fi
+	((i++))
+done
