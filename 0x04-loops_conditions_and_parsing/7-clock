@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#print time
+i=0
+while [ $i -lt 13 ]
+do
+	echo "Hour: $i"
+	b=1
+	while [ $b -lt 60 ]
+	do
+		echo $b
+		((b++))
+	done
+	((i++))
+done
