@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#kill process forcefully
+kill -9 7-highlander
