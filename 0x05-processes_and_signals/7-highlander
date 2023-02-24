@@ -5,5 +5,5 @@ while 'true'
 do
 	echo "To infinity and beyond"
 	sleep 2
-	trap 'echo $mssg' SIGINT
+	trap 'echo $mssg' SIGTERM
 done
