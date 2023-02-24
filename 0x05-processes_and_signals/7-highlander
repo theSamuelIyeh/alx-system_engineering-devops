@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#print when recieves signal
+mssg="I am invincible!!!"
+while 'true'
+do
+	echo "To infinity and beyond"
+	trap 'echo $mssg' SIGINT
+done
